@@ -63,8 +63,6 @@ void Error_Handler(void);
 #define LED_G_GPIO_Port GPIOC
 #define LED_B_Pin GPIO_PIN_15
 #define LED_B_GPIO_Port GPIOC
-#define Beeper_Pin GPIO_PIN_15
-#define Beeper_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
