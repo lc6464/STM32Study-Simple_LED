@@ -104,6 +104,8 @@ int main(void)
     HAL_GPIO_WritePin(GPIOC, LED_B_Pin, GPIO_PIN_RESET);
     HAL_Delay(500);
     HAL_GPIO_WritePin(GPIOC, LED_R_Pin | LED_G_Pin | LED_B_Pin, GPIO_PIN_SET);
+    HAL_Delay(500);
+    /*
     for (int a = 0; a < 5; a++)
     {
       for (int i = 0; i < 50; i++)
@@ -115,6 +117,7 @@ int main(void)
       }
       HAL_Delay(100);
     }
+    */
   }
   /* USER CODE END 3 */
 }

@@ -3,7 +3,7 @@
 [GENERAL]
   aATEModuleSel[24] = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
   ConnectMode = 0
-  CurrentFile = "D:\LC\Develop\STM32\Study\P1_Simple_LED\MDK-ARM\P1_Simple_LED\P1_Simple_LED.hex"
+  CurrentFile = "D:\LC\Develop\STM32\Study\P1_Simple_LED\build\P1_Simple_LED.hex"
   DataFileSAddr = 0x00000000
   GUIMode = 0
   HostName = ""
