@@ -97,14 +97,14 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-    HAL_GPIO_WritePin(GPIOC, LED_R_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOC, LED_R_Pin, GPIO_PIN_RESET); // 开漏输出，低电平亮灯
     HAL_Delay(200);
     HAL_GPIO_WritePin(GPIOC, LED_G_Pin, GPIO_PIN_RESET);
     HAL_Delay(200);
     HAL_GPIO_WritePin(GPIOC, LED_B_Pin, GPIO_PIN_RESET);
-    HAL_Delay(500);
-    HAL_GPIO_WritePin(GPIOC, LED_R_Pin | LED_G_Pin | LED_B_Pin, GPIO_PIN_SET);
-    HAL_Delay(500);
+    HAL_Delay(300);
+    HAL_GPIO_TogglePin(GPIOC, LED_R_Pin | LED_G_Pin | LED_B_Pin); // 关灯
+    HAL_Delay(300);
   }
   /* USER CODE END 3 */
 }
